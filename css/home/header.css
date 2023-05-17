@@ -69,3 +69,16 @@ nav a:hover {
   background-color: #345f13;
 }
 /* FIM Estilos barra de navegação */
+
+@media (max-width: 500px) {
+  .header-menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    margin: 2rem 0rem;
+  }
+  .header-menu a {
+    padding: 0.5rem 1rem;
+  }
+}

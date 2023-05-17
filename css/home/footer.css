@@ -18,3 +18,13 @@ footer div {
   text-align: center;
 }
 /* FIM Estilos do rodapé */
+
+@media (max-width: 500px) {
+  footer p {
+    font-size: 0.8rem;
+    margin-top: 2.5rem;
+  }
+  footer a {
+    font-size: 0.8rem;
+  }
+}

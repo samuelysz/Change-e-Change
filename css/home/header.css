@@ -64,7 +64,7 @@
   transition: 0.2s;
 }
 
-nav a:hover {
+.header-menu a:hover {
   color: #ffffff;
   background-color: #345f13;
 }

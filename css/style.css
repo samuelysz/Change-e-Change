@@ -3,3 +3,5 @@
 @import url("./catalogo/catalogo.css");
 @import url("./pagina-produto/pgproduto.css");
 @import url("./carrinho/carrinho.css");
+@import url("./pagamento/pagamento.css");
+@import url("./concluido/concluido.css");

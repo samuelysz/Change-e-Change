@@ -74,11 +74,18 @@
 }
 
 .entrega-container button {
-  background: #222a1c;
-  color: #fff;
-  border: 2px solid #222a1c;
+  background: #fff;
+  color: #222a1c;
+  border: 2px solid #fff;
   border-radius: 3px;
   padding: 0.5rem 1rem;
+}
+
+.entrega-container button:hover,
+.entrega-container button:focus {
+  color: #fff;
+  background: #345f13;
+  border: 2px solid #345f13;
 }
 
 .resumo-container {
@@ -124,8 +131,8 @@
 
 .continuar {
   text-decoration: none;
-  color: #fff;
-  background: #222a1c;
+  color: #222a1c;
+  background: #fff;
   padding: 0.8rem 1.2rem;
   border-radius: 3px;
   font-size: 1rem;
@@ -133,6 +140,11 @@
   font-weight: bold;
   display: block;
   margin: 0 auto;
+}
+
+.continuar:hover {
+  color: #fff;
+  background: #345f13;
 }
 
 @media (max-width: 1180px) {

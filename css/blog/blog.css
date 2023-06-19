@@ -105,6 +105,17 @@ main p {
   color: #ffffff;
   margin: 1rem 0rem;
 }
+
+.plus {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  right: 50px;
+  bottom: -660px;
+  border: 4px solid #345f13;
+  border-radius: 50px;
+}
+
 /* Estilos do rodapé */
 footer {
   background: #070707;
